@@ -1,4 +1,4 @@
-#Prerequisites
+<h1>Prerequisites</h1>
 
 An ESXi 8u1 host with the VMware/ESXi provider installed and configured.
 
@@ -6,24 +6,24 @@ Access to the ESXi host with the appropriate permissions to create new VMs.
 
 Basic knowledge of the VMware/ESXi provider and its configuration.
 
-#Steps
+<h2>Steps</h2>
 1. Create a new directory in your project repository to hold the configuration files for the new VM. For example:
-   
-mkdir myvm
 
-3. Create a new file named myvm.tf in the new directory to define the configuration for the new VM.
+#mkdir myvm
 
-4. Initialize the Terraform configuration in the myvm directory. For example:
+2. Create a new file named myvm.tf in the new directory to define the configuration for the new VM.
 
-terraform init
+3. Initialize the Terraform configuration in the myvm directory. For example:
+
+#terraform init
 
 5. Plan the changes to create the new VM. For example:
 
-terraform plan
+#terraform plan
 
 6. Apply the changes to create the new VM. For example:
 
-terraform apply
+#terraform apply
 
 7. Verify that the new VM is running and accessible on the ESXi host.
 
